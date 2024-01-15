@@ -1,0 +1,195 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+nav{
+    background-color: aquamarine;
+    display: flex;
+    height: 80px;
+    border-bottom: 2px solid blue;
+}
+.navbar{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.imgNavbar{
+    width: 70px;
+    border-radius: 20%;
+    box-shadow: 5px 5px blue;
+}
+.linkNavbar{
+    list-style: none;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+header{
+    background-image: url(./media/download\ \(2\).jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px  grey;  
+}
+.titolo{
+    font-size: 80px;
+}
+.sottoTitolo{
+    font-size: 30px;
+}
+.contenitoreArticoli{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sectionCard{
+    min-height: 80vh;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    background-image: url(./media/11.jpeg);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.titoloSectioncard{
+    font-size: 40px;
+    text-align: center;
+    color: aqua;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 5px solid;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.titoloCard{
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px white;
+}
+.sottotitoloCard{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.sottoCard{
+    background-color: rgba(142, 133, 133, 0.3);
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.titoloSottocard{
+    font-weight: 600;
+}
+.elencoSottocard{
+    margin-left: 2px;
+}
+.sectionForm{
+    background-image: url(./media/form.jpeg);
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titoloForm{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px gray;
+    text-decoration: underline;
+}
+form{
+    background-color: gray;
+    width: 300px;
+    min-height: 300px;
+    border: 2px dashed whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.cardForm{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin: 10px;
+}
+button{
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 2px solid;
+    box-shadow: 2px 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    background-color: aqua;
+}
+.cardButton{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.sezioneScritta{
+    background-color: rgb(17, 17, 16);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    margin: 0px;
+}
+.scritta{
+    text-align: center;
+    color: aliceblue;
+}
+footer{
+    background-color: aqua;
+    font-family: monospace;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+}
+.link1{
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.footerLink{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;    
+}
+.footerCopyright{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+}
+.copyright{
+    margin-left: 20px;
+    text-decoration: underline;
+    font-weight: 900;
+    color: gray;
+}
